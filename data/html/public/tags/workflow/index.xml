@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>workflow on Kaley Fischer</title>
+    <link>/tags/workflow/</link>
+    <description>Recent content in workflow on Kaley Fischer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Kaley Fischer</copyright>
+    <lastBuildDate>Tue, 02 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="/tags/workflow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A perfect debian 12 install with docker and zsh!</title>
+      <link>/servers/1712013557202-hyprland/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/servers/1712013557202-hyprland/</guid>
+      <description>Notes on how i install a debian server with rootless docker and network-manager with an zsh setup</description>
+      
+    </item>
+    
+  </channel>
+</rss>
