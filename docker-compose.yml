@@ -8,6 +8,6 @@ services:
       - "80:80"
     volumes:
       - "./data/conf/nginx.conf:/etc/nginx/nginx.conf"
-      - "./data/sites/default:/etc/nginx/conf.d/default.conf"
+      - "./data/sites/:/etc/nginx/conf.d/"
       - "./data/html/:/var/www/html/"
       - "./data/certs/:/etc/certs/"
