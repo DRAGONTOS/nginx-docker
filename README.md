@@ -3,7 +3,7 @@ A docker container for running a nginx server!
 
 ## Configuring
 By default the compose file won't work to make it work you need to add your name for your server like -smp, also you will need to set an ip for it. (I will give you an example on how to set it up for a proxy)
-```
+```bash
 version: "3.8"
 
 services:
