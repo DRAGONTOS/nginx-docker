@@ -5,9 +5,9 @@ services:
     restart: always
     image: nginx:latest
     ports:
-      - "80:80"
+      - "80:80" # Change this if you want to use SSL or anything else.
     volumes:
-      - "./data/conf/nginx.conf:/etc/nginx/nginx.conf"
-      - "./data/sites/:/etc/nginx/conf.d/"
-      - "./data/html/:/var/www/html/"
-      - "./data/certs/:/etc/certs/"
+      - "./data/conf/nginx.conf:/etc/nginx/nginx.conf" # The nginx config. 
+      - "./data/sites/:/etc/nginx/conf.d/" # This has the configuration for configuring sites and enabling them.
+      - "./data/html/:/var/www/html/" # Where the website source code resides.
+      - "./data/certs/:/etc/certs/" # Put your SSL certificates in here!
